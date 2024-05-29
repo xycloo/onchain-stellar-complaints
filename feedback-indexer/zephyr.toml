@@ -1,0 +1,34 @@
+name = "feedback-indexer"
+
+
+[[tables]]
+name = "feedback"
+
+[[tables.columns]]
+name = "source"
+col_type = "BYTEA"
+
+[[tables.columns]]
+name = "hash"
+col_type = "BYTEA"
+
+[[tables.columns]]
+name = "text"
+col_type = "BYTEA"
+
+[[tables.columns]]
+name = "votes"
+col_type = "BYTEA"
+
+
+[[tables]]
+name = "score"
+
+[[tables.columns]]
+name = "source"
+col_type = "BYTEA"
+
+[[tables.columns]]
+name = "upvote"
+col_type = "BYTEA"
+
